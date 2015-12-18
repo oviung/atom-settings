@@ -1,0 +1,85 @@
+"*":
+  "exception-reporting":
+    userId: "4b0c986d-617b-aec9-2b2f-98482ad1b5b3"
+  welcome:
+    showOnStartup: false
+  core:
+    disabledPackages: [
+      "wrap-guide"
+      "link"
+      "autoflow"
+      "bookmarks"
+      "image-view"
+      "metrics"
+      "open-on-github"
+      "release-notes"
+      "spell-check"
+      "styleguide"
+      "update-package-dependencies"
+      "welcome"
+      "package-generator"
+      "encoding-selector"
+      "language-clojure"
+      "language-git"
+      "language-go"
+      "language-mustache"
+      "language-perl"
+      "language-source"
+      "language-toml"
+      "language-yaml"
+      "autosave"
+      "archive-view"
+      "image-view"
+    ]
+    autoHideMenuBar: true
+    destroyEmptyPanes: true
+    themes: [
+      "atom-material-ui"
+      "one-dark-syntax"
+    ]
+    excludeVcsIgnoredPaths: false
+  editor:
+    invisibles: {}
+    softWrap: true
+    tabLength: 4
+    undoGroupingInterval: 800
+  "tree-view": {}
+  minimap:
+    scrollAnimation: true
+    plugins:
+      "highlight-selected": true
+  "one-dark-ui": {}
+  "markdown-preview": {}
+  "spell-check": {}
+  tabs: {}
+  autosave:
+    enabled: true
+  "build-tools-cpp":
+    SourceFileExtensions: [
+      ".c"
+    ]
+    ShellCommand: "gcc"
+  "autocomplete-plus": {}
+  "tool-bar":
+    position: "Left"
+    iconSize: "16px"
+  "seti-icons":
+    iconsPlus: true
+  "file-icons": {}
+  "highlight-selected": {}
+  fonts:
+    fontFamily: "Source Code Pro Medium"
+  "atom-material-ui":
+    fonts:
+      fontSize: 14.3
+    colors:
+      abaseColor:
+        red: 5
+        green: 175
+        blue: 224
+        alpha: 1
+    ui:
+      panelContrast: true
+      panelShadows: true
+    tabs: {}
+    treeView: {}
