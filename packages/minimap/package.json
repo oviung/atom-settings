@@ -1,7 +1,7 @@
 {
   "name": "minimap",
   "main": "./lib/main",
-  "version": "4.18.2",
+  "version": "4.18.4",
   "private": true,
   "description": "A preview of the full source code.",
   "author": {
@@ -83,10 +83,10 @@
     "url": "https://github.com/atom-minimap/minimap/issues"
   },
   "homepage": "https://github.com/atom-minimap/minimap#readme",
-  "_id": "minimap@4.18.2",
-  "_shasum": "eff75aa689bb5de102a1385e033c935b849f1d43",
-  "_resolved": "file:..\\d-1151117-3076-1t33vjr\\package.tgz",
-  "_from": "..\\d-1151117-3076-1t33vjr\\package.tgz",
+  "_id": "minimap@4.18.4",
+  "_shasum": "0a386ed91f281763bd1c974ae925d09000f9cf62",
+  "_resolved": "file:..\\d-1151122-3544-1l94ky2\\package.tgz",
+  "_from": "..\\d-1151122-3544-1l94ky2\\package.tgz",
   "_atomModuleCache": {
     "version": 1,
     "dependencies": [
@@ -97,7 +97,7 @@
       },
       {
         "name": "event-kit",
-        "version": "1.4.1",
+        "version": "1.5.0",
         "path": "node_modules\\atom-utils\\node_modules\\event-kit\\lib\\event-kit.js"
       },
       {
@@ -122,7 +122,7 @@
       },
       {
         "name": "es5-ext",
-        "version": "0.10.10",
+        "version": "0.10.11",
         "path": "node_modules\\atom-utils\\node_modules\\event-kit\\node_modules\\grim\\node_modules\\emissary\\node_modules\\es6-weak-map\\node_modules\\es5-ext\\index.js"
       },
       {
@@ -942,7 +942,7 @@
         ],
         "dependencies": {
           "es6-iterator": "2",
-          "es6-symbol": "~3.0.1"
+          "es6-symbol": "~3.0.2"
         }
       },
       {

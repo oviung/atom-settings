@@ -498,7 +498,7 @@ describe('MinimapElement', () => {
 
             beforeEach(() => {
               originalTop = visibleArea.getBoundingClientRect().top
-              mousemove(visibleArea, {x: originalLeft + 1, y: scrollTo + 40})
+              mousemove(visibleArea, {x: originalLeft + 1, y: scrollTo + 40, btn: 1})
 
               waitsFor(() => { return nextAnimationFrame !== noAnimationFrame })
               runs(() => { nextAnimationFrame() })
@@ -565,6 +565,14 @@ describe('MinimapElement', () => {
             nextAnimationFrame !== noAnimationFrame && nextAnimationFrame()
             return editorElement.getScrollTop() >= 380
           })
+        })
+
+        it('stops the animation if the text editor is destroyed', () => {
+          editor.destroy()
+
+          nextAnimationFrame !== noAnimationFrame && nextAnimationFrame()
+
+          expect(nextAnimationFrame === noAnimationFrame)
         })
       })
 
@@ -686,8 +694,10 @@ describe('MinimapElement', () => {
           runs(() => { nextAnimationFrame() })
         })
 
+
+
         describe('dragging the visible area', () => {
-          let [visibleArea, originalTop] = []
+          let [originalTop, visibleArea] = []
 
           beforeEach(() => {
             visibleArea = minimapElement.visibleArea
