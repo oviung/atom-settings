@@ -1,9 +1,29 @@
 "*":
-  "exception-reporting":
-    userId: "4b0c986d-617b-aec9-2b2f-98482ad1b5b3"
-  welcome:
-    showOnStartup: false
+  "atom-material-ui":
+    colors:
+      abaseColor:
+        red: 5
+        green: 175
+        blue: 224
+        alpha: 1
+    fonts:
+      fontSize: 14.3
+    tabs: {}
+    treeView: {}
+    ui:
+      panelContrast: true
+      panelShadows: true
+  "autocomplete-plus": {}
+  autosave:
+    enabled: true
+  "build-tools-cpp":
+    ShellCommand: "gcc"
+    SourceFileExtensions: [
+      ".c"
+    ]
   core:
+    autoHideMenuBar: true
+    destroyEmptyPanes: true
     disabledPackages: [
       "wrap-guide"
       "link"
@@ -31,55 +51,36 @@
       "archive-view"
       "image-view"
     ]
-    autoHideMenuBar: true
-    destroyEmptyPanes: true
+    excludeVcsIgnoredPaths: false
     themes: [
       "atom-material-ui"
       "one-dark-syntax"
     ]
-    excludeVcsIgnoredPaths: false
   editor:
     invisibles: {}
+    lineHeight: 1.45
     softWrap: true
     tabLength: 4
     undoGroupingInterval: 800
-  "tree-view": {}
-  minimap:
-    scrollAnimation: true
-    plugins:
-      "highlight-selected": true
-  "one-dark-ui": {}
-  "markdown-preview": {}
-  "spell-check": {}
-  tabs: {}
-  autosave:
-    enabled: true
-  "build-tools-cpp":
-    SourceFileExtensions: [
-      ".c"
-    ]
-    ShellCommand: "gcc"
-  "autocomplete-plus": {}
-  "tool-bar":
-    position: "Left"
-    iconSize: "16px"
-  "seti-icons":
-    iconsPlus: true
+  "exception-reporting":
+    userId: "4b0c986d-617b-aec9-2b2f-98482ad1b5b3"
   "file-icons": {}
-  "highlight-selected": {}
   fonts:
     fontFamily: "Source Code Pro Medium"
-  "atom-material-ui":
-    fonts:
-      fontSize: 14.3
-    colors:
-      abaseColor:
-        red: 5
-        green: 175
-        blue: 224
-        alpha: 1
-    ui:
-      panelContrast: true
-      panelShadows: true
-    tabs: {}
-    treeView: {}
+  "highlight-selected": {}
+  "markdown-preview": {}
+  minimap:
+    plugins:
+      "highlight-selected": true
+    scrollAnimation: true
+  "one-dark-ui": {}
+  "seti-icons":
+    iconsPlus: true
+  "spell-check": {}
+  tabs: {}
+  "tool-bar":
+    iconSize: "16px"
+    position: "Left"
+  "tree-view": {}
+  welcome:
+    showOnStartup: false
