@@ -1,3 +1,4 @@
+[![Build Status](https://img.shields.io/travis/silvestreh/atom-material-ui.svg?style=flat-square)](https://travis-ci.org/silvestreh/atom-material-ui)
 [![apm](https://img.shields.io/apm/dm/atom-material-ui.svg?style=flat-square)](https://atom.io/packages/atom-material-ui)
 [![apm](https://img.shields.io/apm/v/atom-material-ui.svg?style=flat-square)](https://atom.io/packages/atom-material-ui)
 [![apm](https://img.shields.io/apm/l/atom-material-ui.svg?style=flat-square)]()
@@ -11,15 +12,17 @@ A dynamic UI theme for Atom that (kinda) follows Google's Material Design Guidel
 
 Inspired by Mattia Astorino's [SublimeText theme](https://github.com/equinusocio/material-theme).
 
-## Installation
+# Installation
 
 Fire up a console and type:
 
-`$ apm install atom-material-ui atom-material-syntax atom-material-syntax-light`
+```shell
+apm install atom-material-ui
+```
 
 Or, inside Atom's settings select Install and then search for this package.
 
-## Configuration
+# Configuration
 
 Atom Material UI supports different accent colors. To change it, go to Settings > Themes and click the cog icon next to the theme selector.
 
@@ -27,17 +30,39 @@ Atom Material UI supports different accent colors. To change it, go to Settings 
 
 You'll find the color picker there.
 
-## Screenshot
+# Screenshots
 
-Here's the obligatory screenshot. The toolbar on the left side is a package named [Tool-bar-main](https://atom.io/packages/tool-bar-main).
+Here's the obligatory screenshot.
 
-![](http://i.imgur.com/BbNSkFT.png)
+### With [Atom Material Syntax](https://atom.io/packages/atom-material-syntax)
 
-## Light syntax theme variant
+```shell
+apm install atom-material-syntax
+```
 
-![](http://i.imgur.com/NFJB47Q.png)
+![](http://i.imgur.com/ExPYmJY.png)
 
-## Extra
+### With [Light syntax](https://atom.io/packages/atom-material-syntax-light) theme variant
+
+```shell
+apm install atom-material-syntax-light
+```
+
+![](http://i.imgur.com/q1o78sX.png)
+
+### With [Dark syntax](https://atom.io/packages/atom-material-syntax-dark) theme variant
+
+```shell
+apm install atom-material-syntax-dark
+```
+
+![](http://i.imgur.com/orhIvwS.png)
+
+# Contributing
+
+Please check the [CONTRIBUTING.md](https://github.com/silvestreh/atom-material-ui/blob/master/CONTRIBUTING.md) file.
+
+# Extra
 
 ![](http://i.imgur.com/0tHORB1.png)
 
