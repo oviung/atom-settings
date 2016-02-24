@@ -2,16 +2,21 @@
   "atom-material-ui":
     colors:
       abaseColor:
-        red: 5
-        green: 175
-        blue: 224
+        red: 4
+        green: 166
+        blue: 213
         alpha: 1
+      accentColor:
+        red: 4
+        green: 166
+        blue: 213
+        alpha: 1
+      predefinedColor: "Cyan"
     fonts:
       fontSize: 14.3
     tabs: {}
     treeView: {}
     ui:
-      panelContrast: true
       panelShadows: true
   "autocomplete-plus": {}
   autosave:
