@@ -55,6 +55,7 @@
       "autosave"
       "archive-view"
       "image-view"
+      "about"
     ]
     excludeVcsIgnoredPaths: false
     themes: [
