@@ -81,8 +81,7 @@
       "highlight-selectedDecorationsZIndex": 0
     scrollAnimation: true
   "one-dark-ui": {}
-  "seti-icons":
-    iconsPlus: true
+  "seti-icons": {}
   "spell-check": {}
   tabs: {}
   "tool-bar":

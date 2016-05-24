@@ -1,44 +1,46 @@
-// One Dark
-
-[theme-one-dark-ui-layoutmode],
-[theme-one-light-ui-layoutmode] {
-  .list-group,
-  .list-tree {
-    .icon::before {
-      vertical-align: bottom;
-    }
-  }
-}
-
-.theme-atom-material-ui {
-  // Tab Bar
-  .tab-icons & {
-    .tab-bar .tab.active .title {
-      padding-left: 24px;
+atom-workspace {
+  // One Dark/One Light
+  &.theme-one-dark-ui,
+  &.theme-one-light-ui {
+    // Find in Project
+    .preview-pane .path.list-nested-item {
+      .icon-book,
+      .icon-file-media,
+      .icon-file-text {
+        &:before {
+          top: 0;
+        }
+      }
     }
   }
 
-  .tab-icons-all & {
-    .tab-bar .tab .title {
-      padding-left: 24px;
-    }
-  }
+  // Atom Material
+  &.theme-atom-material-ui {
+    // Tab Bar
+    .tab-bar .tab {
+      .title:before {
+        margin-left: 0;
+        margin-right: 5px !important;
+        position: relative;
+        vertical-align: middle;
+      }
 
-  .name.icon {
-    &.icon-repo:before {
-      left: -8px;
-      top: 5px;
+      .title.icon:before {
+        vertical-align: text-bottom;
+      }
     }
 
-    &:before {
-      top: 4px;
-      margin-right: .75rem !important;
+    .icon-file-directory {
+      &:before {
+        margin-right: 10px !important;
+      }
     }
 
-    &[data-name$=".cpp"]:before,
-    &[data-name$=".c"]:before,
-    &[data-name$=".swift"]:before {
-      top: 2px;
+    .icon-file-text,
+    .icon-book {
+      &:before {
+        top: 6px;
+      }
     }
   }
 }
