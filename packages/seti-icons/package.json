@@ -1,6 +1,6 @@
 {
   "name": "seti-icons",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "The awesome icons provided by Seti UI theme.",
   "license": "MIT",
   "repository": {
@@ -27,16 +27,16 @@
       "description": "Display icons without color."
     }
   },
-  "readme": "# Seti Icons\n\n[![apm][apm-image]][apm-url]\n[![apmi][apmi-image]][apmi-url]\n\n> The awesome icons provided by Seti UI theme.\n\n![Seti UI](https://github.com/jesseweed/seti-ui/raw/master/screenshot-icons.png)\n\n## Settings\n\n| Name | Type | Default | Description |\n|---|---|---|---|\n| No Color | Boolean | false | Enables/disable color icons. |\n\n## Change Log\n\n[Full Change Log](changelog.md)\n\n### v1.1.0 (05/19/2016)\n- Add Twig icon ([#18](https://github.com/wyze/atom-seti-icons/issues/18) via [73ee067](https://github.com/wyze/atom-seti-icons/commit/73ee0679421a8553626a010f2b25b952ffeae774))\n- Add Elm icon ([#15](https://github.com/wyze/atom-seti-icons/issues/15) via [0ac7401](https://github.com/wyze/atom-seti-icons/commit/0ac74018bd0627f12db135107c3367a8f5a29b17))\n- Fix icon spacing with One Dark in preview pane ([e30cb86]())\n- Remove conflicting theme overrides ([#21](https://github.com/wyze/atom-seti-icons/issues/21) via [543ddc1](https://github.com/wyze/atom-seti-icons/commit/543ddc193c537911b30ce5ce8a6d512253f575df))\n\n## Credits\n\nThank you to [Jesse Weed](//github.com/jesseweed) for making the original Seti UI theme.\n\n## License\n\nCopyright © 2015-2016 [Neil Kistner](//github.com/wyze)\n\nReleased under the MIT license. See [license](license) for details.\n\n[apm-image]: https://img.shields.io/apm/v/seti-icons.svg?style=flat-square\n[apm-url]: https://atom.io/packages/seti-icons\n\n[apmi-image]: https://img.shields.io/apm/dm/seti-icons.svg?style=flat-square\n[apmi-url]: https://atom.io/packages/seti-icons\n",
+  "readme": "# Seti Icons\n\n[![apm][apm-image]][apm-url]\n[![apmi][apmi-image]][apmi-url]\n\n> The awesome icons provided by Seti UI theme.\n\n![Seti UI](https://github.com/jesseweed/seti-ui/raw/master/screenshot-icons.png)\n\n## Settings\n\n| Name | Type | Default | Description |\n|---|---|---|---|\n| No Color | Boolean | false | Enables/disable color icons. |\n\n## Change Log\n\n[Full Change Log](changelog.md)\n\n### v1.2.0 (05/29/2016)\n- Add changes from seti-ui v1.2.3 ([#24](https://github.com/wyze/atom-seti-icons/issues/24) via [cb8ba81](https://github.com/wyze/atom-seti-icons/commit/cb8ba819ecd9c4b9cf458e0576b0259453f5468a))\n  - New Icons\n    - Audio files (.mp3, .oog)\n    - Gradle (.gradle)\n    - Ionic (ionic.project, ionic.config.json)\n    - Terraform (.tf, .tf.json)\n  - Updated Icons\n    - Audio files (.wav)\n- Update objective c file icons ([#27](https://github.com/wyze/atom-seti-icons/pull/27) via [6134bbc](https://github.com/wyze/atom-seti-icons/commit/6134bbc2edfbeba68aece38dc8e122b9da82ef70))\n- Fix project icon to match seti-ui ([#25](https://github.com/wyze/atom-seti-icons/issues/25) via [711215f](https://github.com/wyze/atom-seti-icons/commit/711215fdf3ca5c570c36c992448230cfe908eefa))\n\n## Credits\n\nThank you to [Jesse Weed](//github.com/jesseweed) for making the original Seti UI theme.\n\n## License\n\nCopyright © 2015-2016 [Neil Kistner](//github.com/wyze)\n\nReleased under the MIT license. See [license](license) for details.\n\n[apm-image]: https://img.shields.io/apm/v/seti-icons.svg?style=flat-square\n[apm-url]: https://atom.io/packages/seti-icons\n\n[apmi-image]: https://img.shields.io/apm/dm/seti-icons.svg?style=flat-square\n[apmi-url]: https://atom.io/packages/seti-icons\n",
   "readmeFilename": "readme.md",
   "bugs": {
     "url": "https://github.com/wyze/atom-seti-icons/issues"
   },
   "homepage": "https://github.com/wyze/atom-seti-icons#readme",
-  "_id": "seti-icons@1.1.0",
-  "_shasum": "00d5a74a5869b051a9aa96bc5196768ae45e5322",
-  "_resolved": "file:..\\d-116424-5988-12ylnoq\\package.tgz",
-  "_from": "..\\d-116424-5988-12ylnoq\\package.tgz",
+  "_id": "seti-icons@1.2.0",
+  "_shasum": "88557c3a7b7b096225af4fd84678fdf5a6370ee4",
+  "_resolved": "file:..\\d-116431-2736-1lcj00v\\package.tgz",
+  "_from": "..\\d-116431-2736-1lcj00v\\package.tgz",
   "_atomModuleCache": {
     "version": 1,
     "dependencies": [],
