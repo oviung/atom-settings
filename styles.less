@@ -9,27 +9,28 @@
  * http://lesscss.org
  */
 
+
 // style the background and foreground colors on the atom-text-editor-element itself
 atom-text-editor {
     background-color: #22252c;
-    letter-spacing: 0.65px;
+    letter-spacing: 0.3px;
     -webkit-font-smoothing: antialiased;
 }
 
-atom-text-editor::shadow .selection .region {
+atom-text-editor.editor .selection .region {
     background-color: #6BCEFF;
     opacity: 0.13;
 }
 
 atom-text-editor .vertical-scrollbar,
-atom-text-editor::shadow .vertical-scrollbar {
+atom-text-editor.editor .vertical-scrollbar {
     opacity: 0;
     width: 0;
 }
 
 // Minimap
-atom-text-editor::shadow atom-text-editor-minimap::shadow .minimap-visible-area,
-atom-text-editor atom-text-editor-minimap::shadow .minimap-visible-area {
+atom-text-editor.editor atom-text-editor-minimap .minimap-visible-area,
+atom-text-editor atom-text-editor-minimap .minimap-visible-area {
     background-color: #6BCEFF;
     opacity: 0.1;
 }

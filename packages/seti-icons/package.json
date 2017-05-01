@@ -2,40 +2,40 @@
   "_args": [
     [
       {
-        "raw": "C:\\Users\\Home\\AppData\\Local\\Temp\\d-116818-5008-zunii0\\package.tgz",
+        "raw": "/tmp/d-11731-5984-avrpic/package.tgz",
         "scope": null,
         "escapedName": null,
         "name": null,
-        "rawSpec": "C:\\Users\\Home\\AppData\\Local\\Temp\\d-116818-5008-zunii0\\package.tgz",
-        "spec": "C:\\Users\\Home\\AppData\\Local\\Temp\\d-116818-5008-zunii0\\package.tgz",
+        "rawSpec": "/tmp/d-11731-5984-avrpic/package.tgz",
+        "spec": "/tmp/d-11731-5984-avrpic/package.tgz",
         "type": "local"
       },
-      "C:\\Users\\Home\\AppData\\Local\\Temp\\apm-install-dir-116818-5008-10fyzip"
+      "/tmp/apm-install-dir-11731-5984-n35syg"
     ]
   ],
-  "_from": "..\\d-116818-5008-zunii0\\package.tgz",
-  "_id": "seti-icons@1.3.3",
+  "_from": "../d-11731-5984-avrpic/package.tgz",
+  "_id": "seti-icons@1.4.3",
   "_inCache": true,
   "_installable": true,
   "_location": "/seti-icons",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "C:\\Users\\Home\\AppData\\Local\\Temp\\d-116818-5008-zunii0\\package.tgz",
+    "raw": "/tmp/d-11731-5984-avrpic/package.tgz",
     "scope": null,
     "escapedName": null,
     "name": null,
-    "rawSpec": "C:\\Users\\Home\\AppData\\Local\\Temp\\d-116818-5008-zunii0\\package.tgz",
-    "spec": "C:\\Users\\Home\\AppData\\Local\\Temp\\d-116818-5008-zunii0\\package.tgz",
+    "rawSpec": "/tmp/d-11731-5984-avrpic/package.tgz",
+    "spec": "/tmp/d-11731-5984-avrpic/package.tgz",
     "type": "local"
   },
   "_requiredBy": [
     "#USER"
   ],
-  "_resolved": "file:..\\d-116818-5008-zunii0\\package.tgz",
-  "_shasum": "3df9eb4e9c0333da4403d9a510738a7824f20286",
+  "_resolved": "file:../d-11731-5984-avrpic/package.tgz",
+  "_shasum": "3d2afca6d4e755c5a9884e0a786c3e62728ce643",
   "_shrinkwrap": null,
-  "_spec": "C:\\Users\\Home\\AppData\\Local\\Temp\\d-116818-5008-zunii0\\package.tgz",
-  "_where": "C:\\Users\\Home\\AppData\\Local\\Temp\\apm-install-dir-116818-5008-10fyzip",
+  "_spec": "/tmp/d-11731-5984-avrpic/package.tgz",
+  "_where": "/tmp/apm-install-dir-11731-5984-n35syg",
   "author": {
     "name": "Neil Kistner",
     "email": "neil.kistner@gmail.com",
@@ -53,7 +53,9 @@
   },
   "dependencies": {},
   "description": "The awesome icons provided by Seti UI theme.",
-  "devDependencies": {},
+  "devDependencies": {
+    "conventional-changelog-cli": "^1.2.0"
+  },
   "engines": {
     "atom": ">=1.4.0 <2.0.0"
   },
@@ -66,11 +68,14 @@
   "main": "lib/index",
   "name": "seti-icons",
   "optionalDependencies": {},
-  "readme": "# Seti Icons\n\n[![apm][apm-image]][apm-url]\n[![apmi][apmi-image]][apmi-url]\n\n> The awesome icons provided by Seti UI theme.\n\n![Seti UI](https://github.com/jesseweed/seti-ui/raw/master/screenshot-icons.png)\n\n## Settings\n\n| Name | Type | Default | Description |\n|---|---|---|---|\n| No Color | Boolean | false | Enables/disable color icons. |\n\n## Change Log\n\n[Full Change Log](changelog.md)\n\n### v1.3.3 (2016-09-03)\n- Add override for Genesis theme ([484d4eb](https://github.com/wyze/atom-seti-icons/commit/484d4eb)), closes [#36](https://github.com/wyze/atom-seti-icons/issues/36)\n\n## Credits\n\nThank you to [Jesse Weed](//github.com/jesseweed) for making the original Seti UI theme.\n\n## License\n\nCopyright © 2015-2016 [Neil Kistner](//github.com/wyze)\n\nReleased under the MIT license. See [license](license) for details.\n\n[apm-image]: https://img.shields.io/apm/v/seti-icons.svg?style=flat-square\n[apm-url]: https://atom.io/packages/seti-icons\n\n[apmi-image]: https://img.shields.io/apm/dm/seti-icons.svg?style=flat-square\n[apmi-url]: https://atom.io/packages/seti-icons\n",
+  "readme": "# Seti Icons\n\n[![apm][apm-image]][apm-url]\n[![apmi][apmi-image]][apmi-url]\n\n> The awesome icons provided by [Seti UI](https://github.com/jesseweed/seti-ui) theme.\n\n![Seti UI](https://github.com/jesseweed/seti-ui/raw/master/screenshot-icons.png)\n\n## Settings\n\n| Name | Type | Default | Description |\n|---|---|---|---|\n| No Color | Boolean | false | Enables/disable color icons. |\n\n## Change Log\n\n[Full Change Log](changelog.md)\n\n### v1.4.3 (2017-03-12)\n\n- Fix alignment in tab bar on Windows for Material UI ([cf25937](https://github.com/wyze/atom-seti-icons/commit/cf25937))\n\n## Credits\n\nThank you to [Jesse Weed](//github.com/jesseweed) for making the original Seti UI theme.\n\n## License\n\nMIT © [Neil Kistner](https://neilkistner.com)\n\n[apm-image]: https://img.shields.io/apm/v/seti-icons.svg?style=flat-square\n[apm-url]: https://atom.io/packages/seti-icons\n\n[apmi-image]: https://img.shields.io/apm/dm/seti-icons.svg?style=flat-square\n[apmi-url]: https://atom.io/packages/seti-icons\n",
   "readmeFilename": "readme.md",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/wyze/atom-seti-icons.git"
   },
-  "version": "1.3.3"
+  "scripts": {
+    "changelog": "conventional-changelog -i changelog.md -s -u"
+  },
+  "version": "1.4.3"
 }

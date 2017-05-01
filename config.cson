@@ -1,92 +1,35 @@
 "*":
-  "atom-material-ui":
-    colors:
-      abaseColor:
-        red: 4
-        green: 166
-        blue: 213
-        alpha: 1
-      accentColor:
-        red: 4
-        green: 166
-        blue: 213
-        alpha: 1
-      predefinedColor: "Cyan"
-    fonts:
-      fontSize: 14.3
-    tabs: {}
-    treeView: {}
-    ui:
-      panelShadows: true
-  "autocomplete-plus": {}
-  autosave:
-    enabled: true
-  "build-tools-cpp":
-    ShellCommand: "gcc"
-    SourceFileExtensions: [
-      ".c"
-    ]
   core:
     autoHideMenuBar: true
-    destroyEmptyPanes: true
+    automaticallyUpdate: false
     disabledPackages: [
-      "wrap-guide"
-      "link"
+      "about"
+      "archive-view"
       "autoflow"
+      "background-tips"
       "bookmarks"
+      "exception-reporting"
       "image-view"
+      "link"
       "metrics"
-      "open-on-github"
-      "release-notes"
+      "package-generator"
       "spell-check"
       "styleguide"
-      "update-package-dependencies"
+      "timecop"
       "welcome"
-      "package-generator"
-      "encoding-selector"
-      "language-clojure"
-      "language-git"
-      "language-go"
-      "language-mustache"
-      "language-perl"
-      "language-source"
-      "language-toml"
-      "language-yaml"
-      "autosave"
-      "archive-view"
-      "image-view"
-      "about"
     ]
-    excludeVcsIgnoredPaths: false
-    themes: [
-      "atom-material-ui"
-      "one-dark-syntax"
-    ]
+    telemetryConsent: "no"
   editor:
-    invisibles: {}
-    lineHeight: 1.45
+    lineHeight: 1.4
     softWrap: true
     tabLength: 4
-    undoGroupingInterval: 800
-  "exception-reporting":
-    userId: "4b0c986d-617b-aec9-2b2f-98482ad1b5b3"
-  "file-icons": {}
+    tabType: "soft"
+    undoGroupingInterval: 500
   fonts:
     fontFamily: "Source Code Pro Medium"
-  "highlight-selected": {}
-  "markdown-preview": {}
   minimap:
     plugins:
       "highlight-selected": true
       "highlight-selectedDecorationsZIndex": 0
-    scrollAnimation: true
-  "one-dark-ui": {}
-  "seti-icons": {}
-  "spell-check": {}
-  tabs: {}
-  "tool-bar":
-    iconSize: "16px"
-    position: "Left"
-  "tree-view": {}
   welcome:
     showOnStartup: false

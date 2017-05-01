@@ -13,32 +13,9 @@
 #     'prefix': 'log'
 #     'body': 'console.log $1'
 #
+# Each scope (e.g. '.source.coffee' above) can only be declared once.
+#
 # This file uses CoffeeScript Object Notation (CSON).
-# If you are unfamiliar with CSON, you can read more about it here:
-# https://github.com/bevry/cson#what-is-cson
-
-
-####    C SNIPPETS
-
-'.source.c':
-    'Default C file':
-        'prefix': 'CF'
-        'body': """
-        #include <stdio.h>
-
-        int main(void)
-        {
-            $1
-
-            return 0;
-        }
-
-        """
-
-    'For loop':
-        'prefix': 'for'
-        'body': 'for (${1:/* initialization */}; ${2:/* condition */}; ${3:/* update */}) ${4:/* instructions */}'
-
-    'If statement':
-        'prefix': 'if'
-        'body': 'if (${1:/* condition */}) ${1:/* instructions */}'
+# If you are unfamiliar with CSON, you can read more about it in the
+# Atom Flight Manual:
+# http://flight-manual.atom.io/using-atom/sections/basic-customization/#_cson
