@@ -15,15 +15,13 @@
 
 ## Change Log
 
-[Full Change Log](changelog.md)
+> [Full Change Log](changelog.md)
 
-### v1.4.3 (2017-03-12)
+### [v1.5.1](https://github.com/wyze/atom-seti-icons/releases/tag/v1.5.1) (2017-05-20)
 
-- Fix alignment in tab bar on Windows for Material UI ([cf25937](https://github.com/wyze/atom-seti-icons/commit/cf25937))
-
-## Credits
-
-Thank you to [Jesse Weed](//github.com/jesseweed) for making the original Seti UI theme.
+* [[`bc6dde4824`](https://github.com/wyze/atom-seti-icons/commit/bc6dde4824)] - Rewrite changelog and update release script (Neil Kistner)
+* [[`0be4420406`](https://github.com/wyze/atom-seti-icons/commit/0be4420406)] - Fix icon alignment in TreeView and Preview on Windows (#66) (Robert Lüdke)
+* [[`d4e1761f87`](https://github.com/wyze/atom-seti-icons/commit/d4e1761f87)] - Fix changelog (Neil Kistner)
 
 ## License
 

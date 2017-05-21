@@ -2,40 +2,40 @@
   "_args": [
     [
       {
-        "raw": "/tmp/d-11731-5984-avrpic/package.tgz",
+        "raw": "/tmp/d-117421-24902-1cd0wmt.y14oenrk9/package.tgz",
         "scope": null,
         "escapedName": null,
         "name": null,
-        "rawSpec": "/tmp/d-11731-5984-avrpic/package.tgz",
-        "spec": "/tmp/d-11731-5984-avrpic/package.tgz",
+        "rawSpec": "/tmp/d-117421-24902-1cd0wmt.y14oenrk9/package.tgz",
+        "spec": "/tmp/d-117421-24902-1cd0wmt.y14oenrk9/package.tgz",
         "type": "local"
       },
-      "/tmp/apm-install-dir-11731-5984-n35syg"
+      "/tmp/apm-install-dir-117421-24902-cnud7s.b9y4l323xr"
     ]
   ],
-  "_from": "../d-11731-5984-avrpic/package.tgz",
-  "_id": "seti-icons@1.4.3",
+  "_from": "../d-117421-24902-1cd0wmt.y14oenrk9/package.tgz",
+  "_id": "seti-icons@1.5.1",
   "_inCache": true,
   "_installable": true,
   "_location": "/seti-icons",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "/tmp/d-11731-5984-avrpic/package.tgz",
+    "raw": "/tmp/d-117421-24902-1cd0wmt.y14oenrk9/package.tgz",
     "scope": null,
     "escapedName": null,
     "name": null,
-    "rawSpec": "/tmp/d-11731-5984-avrpic/package.tgz",
-    "spec": "/tmp/d-11731-5984-avrpic/package.tgz",
+    "rawSpec": "/tmp/d-117421-24902-1cd0wmt.y14oenrk9/package.tgz",
+    "spec": "/tmp/d-117421-24902-1cd0wmt.y14oenrk9/package.tgz",
     "type": "local"
   },
   "_requiredBy": [
     "#USER"
   ],
-  "_resolved": "file:../d-11731-5984-avrpic/package.tgz",
-  "_shasum": "3d2afca6d4e755c5a9884e0a786c3e62728ce643",
+  "_resolved": "file:../d-117421-24902-1cd0wmt.y14oenrk9/package.tgz",
+  "_shasum": "2794c35de7ce0980a70b5ed0374d3c11584d62e0",
   "_shrinkwrap": null,
-  "_spec": "/tmp/d-11731-5984-avrpic/package.tgz",
-  "_where": "/tmp/apm-install-dir-11731-5984-n35syg",
+  "_spec": "/tmp/d-117421-24902-1cd0wmt.y14oenrk9/package.tgz",
+  "_where": "/tmp/apm-install-dir-117421-24902-cnud7s.b9y4l323xr",
   "author": {
     "name": "Neil Kistner",
     "email": "neil.kistner@gmail.com",
@@ -54,7 +54,7 @@
   "dependencies": {},
   "description": "The awesome icons provided by Seti UI theme.",
   "devDependencies": {
-    "conventional-changelog-cli": "^1.2.0"
+    "write-changelog": "^1.1.0"
   },
   "engines": {
     "atom": ">=1.4.0 <2.0.0"
@@ -68,14 +68,27 @@
   "main": "lib/index",
   "name": "seti-icons",
   "optionalDependencies": {},
-  "readme": "# Seti Icons\n\n[![apm][apm-image]][apm-url]\n[![apmi][apmi-image]][apmi-url]\n\n> The awesome icons provided by [Seti UI](https://github.com/jesseweed/seti-ui) theme.\n\n![Seti UI](https://github.com/jesseweed/seti-ui/raw/master/screenshot-icons.png)\n\n## Settings\n\n| Name | Type | Default | Description |\n|---|---|---|---|\n| No Color | Boolean | false | Enables/disable color icons. |\n\n## Change Log\n\n[Full Change Log](changelog.md)\n\n### v1.4.3 (2017-03-12)\n\n- Fix alignment in tab bar on Windows for Material UI ([cf25937](https://github.com/wyze/atom-seti-icons/commit/cf25937))\n\n## Credits\n\nThank you to [Jesse Weed](//github.com/jesseweed) for making the original Seti UI theme.\n\n## License\n\nMIT © [Neil Kistner](https://neilkistner.com)\n\n[apm-image]: https://img.shields.io/apm/v/seti-icons.svg?style=flat-square\n[apm-url]: https://atom.io/packages/seti-icons\n\n[apmi-image]: https://img.shields.io/apm/dm/seti-icons.svg?style=flat-square\n[apmi-url]: https://atom.io/packages/seti-icons\n",
+  "readme": "# Seti Icons\n\n[![apm][apm-image]][apm-url]\n[![apmi][apmi-image]][apmi-url]\n\n> The awesome icons provided by [Seti UI](https://github.com/jesseweed/seti-ui) theme.\n\n![Seti UI](https://github.com/jesseweed/seti-ui/raw/master/screenshot-icons.png)\n\n## Settings\n\n| Name | Type | Default | Description |\n|---|---|---|---|\n| No Color | Boolean | false | Enables/disable color icons. |\n\n## Change Log\n\n> [Full Change Log](changelog.md)\n\n### [v1.5.1](https://github.com/wyze/atom-seti-icons/releases/tag/v1.5.1) (2017-05-20)\n\n* [[`bc6dde4824`](https://github.com/wyze/atom-seti-icons/commit/bc6dde4824)] - Rewrite changelog and update release script (Neil Kistner)\n* [[`0be4420406`](https://github.com/wyze/atom-seti-icons/commit/0be4420406)] - Fix icon alignment in TreeView and Preview on Windows (#66) (Robert Lüdke)\n* [[`d4e1761f87`](https://github.com/wyze/atom-seti-icons/commit/d4e1761f87)] - Fix changelog (Neil Kistner)\n\n## License\n\nMIT © [Neil Kistner](https://neilkistner.com)\n\n[apm-image]: https://img.shields.io/apm/v/seti-icons.svg?style=flat-square\n[apm-url]: https://atom.io/packages/seti-icons\n\n[apmi-image]: https://img.shields.io/apm/dm/seti-icons.svg?style=flat-square\n[apmi-url]: https://atom.io/packages/seti-icons\n",
   "readmeFilename": "readme.md",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/wyze/atom-seti-icons.git"
   },
   "scripts": {
-    "changelog": "conventional-changelog -i changelog.md -s -u"
+    "version": "write-changelog"
   },
-  "version": "1.4.3"
+  "version": "1.5.1",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".js": [
+        "lib/index.js"
+      ],
+      ".json": [
+        "package.json"
+      ]
+    },
+    "folders": []
+  }
 }
