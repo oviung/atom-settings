@@ -2,40 +2,39 @@
   "_args": [
     [
       {
-        "raw": "/tmp/d-117421-25320-1g01i22.8jnowuq5mi/package.tgz",
+        "raw": "/tmp/d-117626-11458-1wzdp20.j070wo2yb9/package.tgz",
         "scope": null,
         "escapedName": null,
         "name": null,
-        "rawSpec": "/tmp/d-117421-25320-1g01i22.8jnowuq5mi/package.tgz",
-        "spec": "/tmp/d-117421-25320-1g01i22.8jnowuq5mi/package.tgz",
+        "rawSpec": "/tmp/d-117626-11458-1wzdp20.j070wo2yb9/package.tgz",
+        "spec": "/tmp/d-117626-11458-1wzdp20.j070wo2yb9/package.tgz",
         "type": "local"
       },
-      "/tmp/apm-install-dir-117421-25320-174hunz.gpb7r5dn29"
+      "/tmp/apm-install-dir-117626-11458-tndn6f.s1vhrggb9"
     ]
   ],
-  "_from": "../d-117421-25320-1g01i22.8jnowuq5mi/package.tgz",
-  "_id": "fonts@2.1.0",
+  "_from": "../d-117626-11458-1wzdp20.j070wo2yb9/package.tgz",
+  "_id": "fonts@3.0.2",
   "_inCache": true,
-  "_installable": true,
   "_location": "/fonts",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "/tmp/d-117421-25320-1g01i22.8jnowuq5mi/package.tgz",
+    "raw": "/tmp/d-117626-11458-1wzdp20.j070wo2yb9/package.tgz",
     "scope": null,
     "escapedName": null,
     "name": null,
-    "rawSpec": "/tmp/d-117421-25320-1g01i22.8jnowuq5mi/package.tgz",
-    "spec": "/tmp/d-117421-25320-1g01i22.8jnowuq5mi/package.tgz",
+    "rawSpec": "/tmp/d-117626-11458-1wzdp20.j070wo2yb9/package.tgz",
+    "spec": "/tmp/d-117626-11458-1wzdp20.j070wo2yb9/package.tgz",
     "type": "local"
   },
   "_requiredBy": [
     "#USER"
   ],
-  "_resolved": "file:../d-117421-25320-1g01i22.8jnowuq5mi/package.tgz",
-  "_shasum": "a7e3cd9c71a9e949896951bcce5c8cea2be17636",
+  "_resolved": "file:../d-117626-11458-1wzdp20.j070wo2yb9/package.tgz",
+  "_shasum": "01154ab085f21928462c569b1b156f5a0ee58947",
   "_shrinkwrap": null,
-  "_spec": "/tmp/d-117421-25320-1g01i22.8jnowuq5mi/package.tgz",
-  "_where": "/tmp/apm-install-dir-117421-25320-174hunz.gpb7r5dn29",
+  "_spec": "/tmp/d-117626-11458-1wzdp20.j070wo2yb9/package.tgz",
+  "_where": "/tmp/apm-install-dir-117626-11458-tndn6f.s1vhrggb9",
   "bugs": {
     "url": "https://github.com/braver/fonts/issues"
   },
@@ -136,6 +135,11 @@
         "Verily Serif Mono",
         "saxMono"
       ]
+    },
+    "secondaryFonts": {
+      "description": "Additional fonts for glyphs missing in the main font (e.g. for CJK characters).",
+      "type": "string",
+      "default": "monospace"
     }
   },
   "dependencies": {},
@@ -162,7 +166,7 @@
     "type": "git",
     "url": "git+https://github.com/braver/fonts.git"
   },
-  "version": "2.1.0",
+  "version": "3.0.2",
   "_atomModuleCache": {
     "version": 1,
     "dependencies": [],
