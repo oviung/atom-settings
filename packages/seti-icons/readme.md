@@ -13,15 +13,17 @@
 |---|---|---|---|
 | No Color | Boolean | false | Enables/disable color icons. |
 
+## Credits
+
+Thank you to [Jesse Weed](//github.com/jesseweed) for making the original Seti UI theme.
+
 ## Change Log
 
 > [Full Change Log](changelog.md)
 
-### [v1.5.1](https://github.com/wyze/atom-seti-icons/releases/tag/v1.5.1) (2017-05-20)
+### [v1.5.4](https://github.com/wyze/atom-seti-icons/releases/tag/v1.5.4) (2017-06-17)
 
-* [[`bc6dde4824`](https://github.com/wyze/atom-seti-icons/commit/bc6dde4824)] - Rewrite changelog and update release script (Neil Kistner)
-* [[`0be4420406`](https://github.com/wyze/atom-seti-icons/commit/0be4420406)] - Fix icon alignment in TreeView and Preview on Windows (#66) (Robert Lüdke)
-* [[`d4e1761f87`](https://github.com/wyze/atom-seti-icons/commit/d4e1761f87)] - Fix changelog (Neil Kistner)
+* [[`418af126f6`](https://github.com/wyze/atom-seti-icons/commit/418af126f6)] - Fix icons on the preview-pane one-dark theme (#72) (Adam Laycock)
 
 ## License
 
