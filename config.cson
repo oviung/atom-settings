@@ -25,6 +25,7 @@
     tabLength: 4
     tabType: "soft"
     undoGroupingInterval: 500
+    zoomFontWhenCtrlScrolling: false
   fonts:
     fontFamily: "Source Code Pro Medium"
   minimap:
