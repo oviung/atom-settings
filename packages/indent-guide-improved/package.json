@@ -2,53 +2,50 @@
   "_args": [
     [
       {
-        "raw": "/tmp/d-11719-25725-1cp2ddc/package.tgz",
+        "raw": "/tmp/d-1171123-13872-37samy.hf16y9zfr/package.tgz",
         "scope": null,
         "escapedName": null,
         "name": null,
-        "rawSpec": "/tmp/d-11719-25725-1cp2ddc/package.tgz",
-        "spec": "/tmp/d-11719-25725-1cp2ddc/package.tgz",
+        "rawSpec": "/tmp/d-1171123-13872-37samy.hf16y9zfr/package.tgz",
+        "spec": "/tmp/d-1171123-13872-37samy.hf16y9zfr/package.tgz",
         "type": "local"
       },
-      "/tmp/apm-install-dir-11719-25725-1o1heq6"
+      "/tmp/apm-install-dir-1171123-13872-pcb26f.zpremte29"
     ]
   ],
-  "_from": "../d-11719-25725-1cp2ddc/package.tgz",
-  "_id": "indent-guide-improved@1.4.12",
+  "_from": "../d-1171123-13872-37samy.hf16y9zfr/package.tgz",
+  "_id": "indent-guide-improved@1.4.13",
   "_inCache": true,
-  "_installable": true,
   "_location": "/indent-guide-improved",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "/tmp/d-11719-25725-1cp2ddc/package.tgz",
+    "raw": "/tmp/d-1171123-13872-37samy.hf16y9zfr/package.tgz",
     "scope": null,
     "escapedName": null,
     "name": null,
-    "rawSpec": "/tmp/d-11719-25725-1cp2ddc/package.tgz",
-    "spec": "/tmp/d-11719-25725-1cp2ddc/package.tgz",
+    "rawSpec": "/tmp/d-1171123-13872-37samy.hf16y9zfr/package.tgz",
+    "spec": "/tmp/d-1171123-13872-37samy.hf16y9zfr/package.tgz",
     "type": "local"
   },
   "_requiredBy": [
     "#USER"
   ],
-  "_resolved": "file:../d-11719-25725-1cp2ddc/package.tgz",
-  "_shasum": "0d73c447ddb23e5bc354c138d4a7ce97a3868046",
+  "_resolved": "file:../d-1171123-13872-37samy.hf16y9zfr/package.tgz",
+  "_shasum": "8092d0f8906013e2c92bb71e759cbc0d7aaced6f",
   "_shrinkwrap": null,
-  "_spec": "/tmp/d-11719-25725-1cp2ddc/package.tgz",
-  "_where": "/tmp/apm-install-dir-11719-25725-1o1heq6",
+  "_spec": "/tmp/d-1171123-13872-37samy.hf16y9zfr/package.tgz",
+  "_where": "/tmp/apm-install-dir-1171123-13872-pcb26f.zpremte29",
   "author": {
     "name": "Akihiro HARAI"
   },
   "bugs": {
     "url": "https://github.com/harai/indent-guide-improved/issues"
   },
-  "dependencies": {
-    "lodash": "^3.9.3"
-  },
+  "dependencies": {},
   "description": "This draws indent guide more correctly and understandably.",
   "devDependencies": {},
   "engines": {
-    "atom": ">=1.13.0-beta0"
+    "atom": ">=1.19.0-beta0"
   },
   "homepage": "https://github.com/harai/indent-guide-improved#readme",
   "keywords": [
@@ -66,5 +63,5 @@
     "type": "git",
     "url": "git+https://github.com/harai/indent-guide-improved.git"
   },
-  "version": "1.4.12"
+  "version": "1.4.13"
 }
