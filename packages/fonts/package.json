@@ -2,39 +2,39 @@
   "_args": [
     [
       {
-        "raw": "/tmp/d-117626-11458-1wzdp20.j070wo2yb9/package.tgz",
+        "raw": "/tmp/d-1171123-13409-1t80vox.r97pgv6lxr/package.tgz",
         "scope": null,
         "escapedName": null,
         "name": null,
-        "rawSpec": "/tmp/d-117626-11458-1wzdp20.j070wo2yb9/package.tgz",
-        "spec": "/tmp/d-117626-11458-1wzdp20.j070wo2yb9/package.tgz",
+        "rawSpec": "/tmp/d-1171123-13409-1t80vox.r97pgv6lxr/package.tgz",
+        "spec": "/tmp/d-1171123-13409-1t80vox.r97pgv6lxr/package.tgz",
         "type": "local"
       },
-      "/tmp/apm-install-dir-117626-11458-tndn6f.s1vhrggb9"
+      "/tmp/apm-install-dir-1171123-13409-182dikz.l1hk1hh0k9"
     ]
   ],
-  "_from": "../d-117626-11458-1wzdp20.j070wo2yb9/package.tgz",
-  "_id": "fonts@3.0.2",
+  "_from": "../d-1171123-13409-1t80vox.r97pgv6lxr/package.tgz",
+  "_id": "fonts@3.0.3",
   "_inCache": true,
   "_location": "/fonts",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "/tmp/d-117626-11458-1wzdp20.j070wo2yb9/package.tgz",
+    "raw": "/tmp/d-1171123-13409-1t80vox.r97pgv6lxr/package.tgz",
     "scope": null,
     "escapedName": null,
     "name": null,
-    "rawSpec": "/tmp/d-117626-11458-1wzdp20.j070wo2yb9/package.tgz",
-    "spec": "/tmp/d-117626-11458-1wzdp20.j070wo2yb9/package.tgz",
+    "rawSpec": "/tmp/d-1171123-13409-1t80vox.r97pgv6lxr/package.tgz",
+    "spec": "/tmp/d-1171123-13409-1t80vox.r97pgv6lxr/package.tgz",
     "type": "local"
   },
   "_requiredBy": [
     "#USER"
   ],
-  "_resolved": "file:../d-117626-11458-1wzdp20.j070wo2yb9/package.tgz",
-  "_shasum": "01154ab085f21928462c569b1b156f5a0ee58947",
+  "_resolved": "file:../d-1171123-13409-1t80vox.r97pgv6lxr/package.tgz",
+  "_shasum": "68d3f4d25929437d3dd7e8ea89f6ecd15e6035e3",
   "_shrinkwrap": null,
-  "_spec": "/tmp/d-117626-11458-1wzdp20.j070wo2yb9/package.tgz",
-  "_where": "/tmp/apm-install-dir-117626-11458-tndn6f.s1vhrggb9",
+  "_spec": "/tmp/d-1171123-13409-1t80vox.r97pgv6lxr/package.tgz",
+  "_where": "/tmp/apm-install-dir-1171123-13409-182dikz.l1hk1hh0k9",
   "bugs": {
     "url": "https://github.com/braver/fonts/issues"
   },
@@ -166,19 +166,5 @@
     "type": "git",
     "url": "git+https://github.com/braver/fonts.git"
   },
-  "version": "3.0.2",
-  "_atomModuleCache": {
-    "version": 1,
-    "dependencies": [],
-    "extensions": {
-      ".coffee": [
-        "lib/fonts.coffee",
-        "lib/runner.coffee"
-      ],
-      ".json": [
-        "package.json"
-      ]
-    },
-    "folders": []
-  }
+  "version": "3.0.3"
 }
